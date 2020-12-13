@@ -173,7 +173,7 @@ function getIdGeneratorFunction(/* startFrom */) {
   throw new Error('Not implemented');
 }
 
-
+// eslint-disable-next-line no-undef
 module.exports = {
   getComposition,
   getPowerFunction,
